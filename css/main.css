@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
+/* ........................................
+
+	SHAPKA
+
+........................................ */
+
+#headerwrap {
+    background: url(../img/background1.jpg) no-repeat center top;
+    opacity: 0.8;
+    margin-top: -10px;
+    padding-top: 20px;
+    text-align: center;
+    background-attachment: relative;
+    background-position: center center;
+    min-height: 500px;
+    width: 100%;
+    background-size: 100%;
+    background-size: cover;
+
+    -webkit-background-size: cover;
+}
+
+#headerwrap h1 {
+    margin: 100px;
+    color: white;
+    font-size: 70px;
+    font-weight: 300;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+#headerwrap h2 {
+    color: white;
+    font-size: 40px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.navbar {
+    font-weight: 800;
+    font-size: 14px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.navbar-inverse {
+    background: #2d2d2d;
+    border-color: #2d2d2d;
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+    background-color: #ff7878; /*красный на ссылке когда активный*/
+    border-radius: 15px;
+}
+
+.navbar-inverse .navbar-brand {
+    /*логотип*/
+    color: #999;
+    font-weight: bolder;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+/* ........................................
+
+	OSNOVA
+
+........................................ */
+
+body {
+    background-color: #f2f2f2;
+    /*фон*/
+    font-family: "Lato";
+    /*шрифт*/
+    font-weight: 300;
+    /*насыщенность шрифта*/
+    font-size: 16px;
+    /*размер шрифта*/
+    color: #555;
+    /*цвет шрифта, черный*/
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+
+    margin-top: 70px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Raleway";
+    font-weight: 300;
+    color: #333;
+}
+
+a {
+    color: #f85c37;
+}
+
+a:hover,
+a:focus {
+    color: #7b7b7b;
+    text-decoration: none;
+    outline: 0;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0px;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+
+li {
+    display: list-item;
+    list-style-type: none;
+}
+
+li:hover{
+    color: green;
+}
+
+
+#dg {
+    background: #e0e0e0;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+#dg h4 {
+    font-size: 40px;
+}
+
+#f {
+    color: #FFF;
+    font-size: 32px;
+}
+
+.centered {
+    text-align: center;
+}
+
+.w h4 {
+    font-size: 25px;
+}
+
+.wb h4 {
+    font-size: 35px;
+}
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text {
+    font-size: 26px;
+    font-family: "segoe ui bold", sans-serif;
+    padding: 10px 10px 0;
+}
+
+.elements > ul > li:hover{
+    color: red;
+}
+
+.main {
+    margin: 2% 0 0;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    flex-wrap: wrap;
+}
+.child {
+    flex: 1 0 40%;
+    height: 25vh;
+    margin-right: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.pizza {
+    flex: 1 0 95%;
+    height: 75%;
+    background: url(../img/pizza-sucuk-keeper.png) center no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-wrap: wrap;
+}
+.pizza > div {
+    flex: 1 0 40%;
+    background: url(../img/background2.jpg);
+    opacity: 0.75;
+}
+
+.order > .button {
+    background-color: #242328;
+    text-align: center;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 13px;
+    margin: 10px 0;
+    font-size: 18px;
+    font-family: "segoe ui bold", sans-serif;
+    cursor: pointer;
+    margin: 0 auto;
+    transition: 0.2s ease-out;
+    visibility: hidden;
+}
+
+.button:hover {
+    background-color: #ff7878;
+    color: white;
+}
+
+/* ........................................
+
+	FORM
+
+........................................ */
+
+.contact_form {
+    max-width: 600px;
+    height: auto;
+    margin: 50px auto 50px;
+}
+
+.contact_form--modal {
+    max-width: 600px;
+    height: auto;
+    margin: 0px auto 0px;
+}
+
+.contact_form h2 {
+    font-size: 28px;
+    margin: 0 0 0px;
+}
+
+.contact_form .subtitle {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.contact_form label {
+    width: 100%;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    display: inline-block;
+}
+
+.contact_form input[type="text"] {
+    width: 100%;
+    margin-bottom: 25px;
+    padding: 4px;
+    font-size: 18px;
+}
+
+.contact_form textarea {
+    width: 100%;
+    height: 120px;
+    margin-bottom: 25px;
+    padding: 4px;
+    font-size: 18px;
+}
+
+.contact_form input[type="submit"] {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 15px;
+    color: white;
+    background-color: #242328;
+}
+
+.contact_form input[type="submit"]:hover {
+    background-color: #ff7878;
+    color: white;
+}
+
+/* ........................................
+
+	THANK YOU PAGE
+
+........................................ */
+
+.thankyou {
+    text-align: center;
+    font-size: 18px;
+}
+
+.thankyou h1 {
+    /*	color: green;*/
+    color: #ff7878;
+    font-size: 28px;
+}
+
+.thankyou p {
+    font-size: 18px;
+}
